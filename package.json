@@ -1,0 +1,23 @@
+{
+  "name": "gen-test",
+  "version": "0.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "gen-run": "~0.1.1"
+  },
+  "engines": {
+    "node": "0.11.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js --harmony_generators"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creationix/gen-test.git"
+  },
+  "author": "Tim Caswell <tim@creationix.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/creationix/gen-test"
+}
